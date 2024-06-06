@@ -1,0 +1,83 @@
+/*NAVBAR LOGO*/
+#navbarLogo {
+    width: 11em;
+    height: auto;
+}
+.btn-img-user {
+    width: 2em;
+    height: 2em;
+    object-fit: cover;
+    object-position: center;
+}
+
+/*NAVBAR BACKGROUND*/
+.bg-custom-dark {
+    background-color: #181818;
+    text-transform: uppercase;
+}
+.bg-custom-light {
+    background-color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+/*LOGIN BTN*/
+#basic-nav-dropdown, .login-btn {
+    font-size: 13pt;
+    color: #713ABE;
+    padding: 4px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    border: groove thin #E8E2E2;
+    transition: border 0.3s ease;
+}
+.login-btn:hover {
+    border: groove thin #ccc6c6;
+}
+
+/*LINK & DROPDOWN*/
+#basic-nav-dropdown:hover, .dropdown-item, .dropdown-item:active {
+    color: #713ABE;
+    background-color: transparent;
+}
+
+.nav-link {
+    font-size: 13pt;
+}
+
+.nav-link:hover, .dropdown-item:hover {
+    color: #713ABE;
+}
+
+.dropdown-item {
+    text-transform: none;
+    font-size: 13pt;
+}
+
+.dropdown-menu {
+    padding: 4px 10px;
+    border-radius: 0;
+    border: groove thin #E8E2E2;
+}
+
+.bg-dropdown-light .dropdown-menu {
+    background-color: #FFFFFF !important;
+}
+
+.bg-dropdown-dark .dropdown-menu {
+    background-color: #181818!important;
+}
+
+#basic-nav-dropdown::after {
+    display: none;
+}
+
+/*TOGGLER BUTTON*/
+.navbar-toggler {
+    border-radius: 0;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+    border: solid thin #E8E2E2;
+}

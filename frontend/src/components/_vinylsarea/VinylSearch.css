@@ -1,0 +1,15 @@
+/*CONTAINER*/
+#searchContainer {
+    position: relative;
+    background: url(https://bit.ly/4aMvDoj) center center/cover no-repeat;
+    height: 65vh;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#searchContainer .row-width {
+  width: 70%;
+}

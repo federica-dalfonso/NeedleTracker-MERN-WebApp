@@ -1,0 +1,31 @@
+/*CAROUSEL BOX*/
+.carousel-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.carousel-item-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-details {
+    object-fit: contain;
+    width: 300px;
+    height: 300px
+}
+
+.carousel-description {
+    text-align: center;
+    margin-top: 15px;
+    width: 80%;
+}
+
+.carousel-m-5 {
+    margin: 0 5px;
+    color: #713ABE;
+}
+

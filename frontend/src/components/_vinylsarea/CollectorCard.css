@@ -1,0 +1,14 @@
+#collectorCard {
+    border-radius: 0%;
+    border: groove thin #E8E2E2;
+    max-width: 500px;
+    margin: auto;
+    background-color: #FFFFFF;
+}
+
+#collectorCard img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 1em;
+}

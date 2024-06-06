@@ -1,0 +1,47 @@
+/*MODALE DI MODIFICA*/
+.modal-content {
+    border-radius: 0% !important;
+}
+
+@media (min-width: 576px) {
+    .modal-dialog#modify-article {
+        max-width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .modal-dialog#modify-vinyl {
+        max-width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+/*SIDEBAR*/
+.admin-title {
+    font-size: 14pt;
+    font-weight: 600;
+}
+
+.admin-link {
+    padding: 0.4em 0.5em;
+}
+
+.admin-link:hover {
+    cursor: pointer;
+    background-color: #e8e2e27a;
+}
+
+/*CARD PROFILE*/
+.author-profile {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+/*MODIFY ARTICLE*/
+.preview-article-img-size {
+    width: 7em;
+    height: 7em;
+    object-fit: cover;
+}

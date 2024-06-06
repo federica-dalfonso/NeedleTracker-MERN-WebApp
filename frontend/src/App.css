@@ -1,0 +1,174 @@
+/* Classi generali */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* BACKGROUND COLORS----------------*/
+.bg-dark {
+    background-color: #181818 !important;
+}
+
+.bg-FFFFFF {
+    background-color: #FFFFFF !important;
+}
+
+.bg-greyscale {
+    background-color: #E8E2E2 !important;
+}
+
+.bg-violet {
+    background-color: #713ABE !important;
+}
+
+/* COLORS----------------*/
+.color-black {
+    color: #181818;
+}
+
+.color-violet {
+    color: #713ABE;
+}
+
+.color-greyscale {
+    color: #E8E2E2;
+}
+
+.color-green {
+    color: #00bd3f;
+}
+
+/* BUTTONS----------------*/
+.btn-padding {
+    padding: 4px 10px;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.btn-icon {
+    padding: 9px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+}
+
+.btn-violet {
+    color: #FFFFFF;
+    border: groove thin #713ABE;
+    background-color: #713ABE;
+    transition: background-color 0.3s ease;
+}
+.btn-violet:hover {
+    background-color: #5a2d98; 
+}
+
+.btn-greyscale {
+    color: #181818;
+    border: groove thin #E8E2E2;
+    background-color: #E8E2E2;
+    transition: background-color 0.3s ease;
+}
+.btn-greyscale:hover {
+    background-color: #ccc6c6; 
+}
+
+.btn-white {
+    color: #181818;
+    border: groove thin #E8E2E2;
+    background-color: #FFFFFF;
+    transition: background-color 0.3s ease;
+}
+.btn-white:hover {
+    border: groove thin #c9c8c8; 
+}
+
+.btn-delete {
+    color: #FFFFFF;
+    border: groove thin #fe0041;
+    background-color: #fe0041;
+    transition: background-color 0.3s ease;
+}
+.btn-delete:hover {
+    background-color: #ca0234;
+}
+
+.btn-modify {
+    color: #FFFFFF;
+    border: groove thin #15F5BA;
+    background-color: #15F5BA;
+    transition: background-color 0.3s ease;
+}
+.btn-modify:hover {
+    background-color: #10d5a0;
+}
+
+.btn-add {
+    color: #FFFFFF;
+    border: groove thin #713ABE;
+    background-color: #713ABE;
+    transition: background-color 0.3s ease;
+}
+.btn-add:hover {
+    background-color: #5a2d98;
+}
+
+/* LINKS----------------*/
+.underline {
+    text-decoration: none;
+}
+.underline:hover {
+    text-decoration: underline;
+}
+
+/* BORDERS----------------*/
+.bord-black {
+    border: groove thin #181818;
+}
+
+.grey-bord {
+    border: groove thin #E8E2E2;
+}
+
+/* SECTION TITLES----------------*/
+.titles-hr {
+    border-top: groove thin #E8E2E2;
+    border-bottom: groove thin #E8E2E2;
+}
+
+/*INPUT FORM*/
+.input-bord {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: groove thin #E8E2E2;
+    border-radius: 0% !important;
+}
+.input-bord:focus, .input-bord:active {
+    box-shadow: none !important;
+    border: groove thin #181818 !important;
+}
+
+#formBasicAvatar.form-control[type=file] {
+    padding: 2.2em 0.5em 1.6em !important;
+}
+
+/* SCROLLBAR STYLE */
+::-webkit-scrollbar {
+    width: 11px;
+}  
+
+::-webkit-scrollbar-track {
+    background: #181818;
+}  
+
+::-webkit-scrollbar-thumb {
+    background: #4B5258;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #6B737C;
+}
+

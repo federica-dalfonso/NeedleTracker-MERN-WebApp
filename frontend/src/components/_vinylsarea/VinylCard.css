@@ -1,0 +1,33 @@
+.pos-rel {
+    position: relative;
+}
+
+.card-footer {
+    background-color: #FFFFFF;
+}
+
+.ellipsis-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.btn-wishlist {
+    color: #713ABE;
+    background-color: transparent;
+    border: none;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    transition: color 0.3s ease;
+}
+.btn-wishlist:hover {
+    color: #511d99
+}
+
+.btn-is-public {
+    background-color: transparent;
+    border: none;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    transition: color 0.3s ease;
+}

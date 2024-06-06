@@ -1,0 +1,25 @@
+.spinner-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.spinner {
+    width: 50px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: 
+    radial-gradient(farthest-side, #6f0eab 95%,#181818) 50% 1px/12px 12px no-repeat,
+    radial-gradient(farthest-side,#2B3035 calc(100% - 14px),#ccc 0);
+    animation: l9 2s infinite linear;
+}
+
+@keyframes l9 {to{transform: rotate(1turn)}}
+

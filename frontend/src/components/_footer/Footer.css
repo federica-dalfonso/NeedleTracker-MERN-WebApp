@@ -1,0 +1,19 @@
+footer.footer {
+    color: gray;
+    padding: 0 0 25px 0;
+    margin-top: auto;
+}
+  
+.social-icons a {
+    color: gray;
+    font-size: 22px;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+}
+
+p {
+    font-size: 11pt;
+}

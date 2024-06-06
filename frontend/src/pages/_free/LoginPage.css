@@ -1,0 +1,43 @@
+/*LOGIN PAGE*/
+.h-box {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content-wrapper {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-to {
+    color: #181818;
+}
+.link-to:hover {
+    color: #713ABE;
+}
+
+/*FORM*/
+/*SWITCH BUTTON*/
+#checkForm {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1em;
+}
+.form-check-input:checked {
+    background-color: #713ABE !important;
+    box-shadow: none;
+    border: groove thin #713ABE;
+}
+.form-check-input {
+    border-radius: 0 !important;
+}
+.form-check-input:focus {
+    box-shadow: none;
+    border: solid thin #181818;
+}
+
+
+

@@ -1,0 +1,26 @@
+.alert {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    border-radius: 0px;
+    color: #FFFFFF;
+    z-index: 1000;
+    opacity: 0.9;
+}
+
+.alert-success {
+    background-color: #00bd3f;
+    border: solid thin #00bd3f;
+}
+
+.alert-notify {
+    background-color: #f9cb00;
+    border: solid thin #f9cb00;
+}
+
+.alert-error {
+    background-color: #fe0041;
+    border: solid thin #fe0041;
+}
